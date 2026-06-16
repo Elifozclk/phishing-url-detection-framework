@@ -1,0 +1,7 @@
+model,accuracy,precision,recall,f1,roc_auc,pr_auc,train_seconds,test_seconds
+Stacking AllBase,0.9885,0.9906,0.9816,0.9861,0.9985,0.9982,1455.83,10.80
+Stacking Top3,0.9877,0.9895,0.9806,0.9851,0.9986,0.9982,1248.78,8.24
+Soft Voting Top3,0.9863,0.9904,0.9765,0.9834,0.9985,0.9983,261.36,10.55
+Hard Voting Top3,0.9861,0.9901,0.9763,0.9832,,,265.45,8.19
+Soft Voting AllBase,0.9851,0.9888,0.9752,0.9820,0.9981,0.9978,328.00,11.09
+Hard Voting AllBase,0.9845,0.9910,0.9714,0.9811,,,272.58,4.99

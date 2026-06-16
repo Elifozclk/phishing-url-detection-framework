@@ -1,0 +1,5 @@
+analysis,result
+SHAP-Permutation Spearman correlation,0.916
+Top-10 feature overlap,8
+Top-20 feature overlap,17
+SHAP stability after 500 samples,0.997-0.998

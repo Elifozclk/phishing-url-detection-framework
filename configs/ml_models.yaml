@@ -1,0 +1,25 @@
+split:
+  test_size: 0.20
+  random_state: 42
+  stratify: true
+models:
+  logistic_regression:
+    solver: lbfgs
+    max_iter: 1000
+  random_forest:
+    n_estimators: 200
+  xgboost:
+    n_estimators: 300
+    learning_rate: 0.05
+    max_depth: 6
+  lightgbm:
+    n_estimators: 300
+    learning_rate: 0.05
+    num_leaves: 31
+  catboost:
+    iterations: 300
+    depth: 6
+    learning_rate: 0.05
+stacking:
+  folds: 5
+  meta_model: logistic_regression

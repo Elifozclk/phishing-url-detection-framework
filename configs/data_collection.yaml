@@ -1,0 +1,9 @@
+domain_resolution:
+  threads: 30
+  timeout_seconds: 4
+  checkpoint_every: 500
+crawler:
+  first_level_links: 5
+  second_level_links: 8
+  concurrency: 10
+  page_timeout_ms: 10000

@@ -1,0 +1,4 @@
+model,accuracy,precision,recall,f1,roc_auc,pr_auc
+Character CNN Seed Ensemble,0.9838,0.9862,0.9746,0.9803,0.9985,0.9981
+Stacked Character BiLSTM Seed Ensemble,0.9800,0.9818,0.9700,0.9758,0.9976,0.9971
+CNN-BiLSTM Seed Ensemble,0.9841,0.9868,0.9746,0.9807,0.9986,0.9982

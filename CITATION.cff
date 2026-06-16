@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or dataset, please cite the associated work."
+title: "Explainable Phishing URL Detection Framework"
+type: software
+authors:
+  - family-names: "Ozcelik"
+    given-names: "Elif"
+  - family-names: "ElSilk"
+    given-names: "Farah"
+  - family-names: "Osmanoglu"
+    given-names: "Murat"
+version: 1.0.0
+date-released: 2026-06-15
+license: MIT
+keywords:
+  - phishing detection
+  - machine learning
+  - explainable artificial intelligence
+  - deep learning
+  - URL classification
